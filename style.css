@@ -1,0 +1,51 @@
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+ 
+  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* header section related style */
+header{
+    background-color: #1A0B2E;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 200px;
+}
+
+img{
+    max-width: 210px;
+}
+
+.navbar .menu ul{
+  display: flex;
+  gap:32px;
+  font-size: 1rem;
+  font-weight: 500px;
+  line-height: 120%;
+  list-style-type: none;
+  color: #FFFFFF;
+}
+
+.btn{
+    font-size: 1rem;
+    padding: 12px 16px;
+    border-radius: 25px;
+    max-width: 135px;
+    background: linear-gradient(90deg,#F7E93F,#FB09B4,#9100F8);
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+}
+
