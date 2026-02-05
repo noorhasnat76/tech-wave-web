@@ -576,13 +576,13 @@ img, iframe {
     gap: 15px;
   }
   .host-container{
-    flex-direction: column;   /* row → column */
+    flex-direction: column;   
     align-items: center;
     text-align: center;
   }
 
   .host-content{
-    width: 100%;              /* খুব important */
+    width: 100%;              
   }
 
   .host-details{
