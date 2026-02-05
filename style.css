@@ -575,6 +575,20 @@ img, iframe {
     flex-direction: column; 
     gap: 15px;
   }
+  .host-container{
+    flex-direction: column;   /* row → column */
+    align-items: center;
+    text-align: center;
+  }
+
+  .host-content{
+    width: 100%;              /* খুব important */
+  }
+
+  .host-details{
+    max-width: 100%;
+    word-wrap: break-word;
+  }
 }
 
 
