@@ -462,7 +462,52 @@ img, iframe {
   max-width: 100%;
   height: auto;
 }
+
+/* responsive */
 @media (max-width: 576px) {
+
+  header{
+    background-color: #1A0B2E;
+  }
+
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    padding: 20px;
+  }
+
+
+  .navbar img{
+    max-width: 150px;
+  }
+
+ 
+  .menu ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .menu ul li{
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  
+  .navbar .btn{
+    font-size: 0.95rem;
+    padding: 10px 22px;
+    border-radius: 25px;
+  }
+  
+
 
   #feature{
     padding: 60px 20px;
