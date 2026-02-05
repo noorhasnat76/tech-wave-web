@@ -483,6 +483,8 @@ img, iframe {
     max-width: 150px;
   }
 
+
+
  
   .menu ul{
     display: flex;
@@ -505,6 +507,7 @@ img, iframe {
     font-size: 0.95rem;
     padding: 10px 22px;
     border-radius: 25px;
+    background-color: none;
   }
   
 
