@@ -47,7 +47,12 @@ img{
     color: #FFFFFF;
     font-weight: 600;
     border: none;
+    cursor: pointer;
+    transition: width 5s linear 2s;
 }
+
+
+
 
 #hero-section{
   background-image: url("./assets/hero-bg.png");
@@ -246,7 +251,7 @@ img{
 
 #feature{
   background-color: #1A0B2E;
-  padding: 100px 170px;
+  padding: 100px 150px;
 }
 
 #feature .feature-title{
@@ -292,10 +297,10 @@ img{
 
 #feature .feature-title{
   color: #FFFFFF;
-  font-size: 1rem;
+  font-size: 3rem;
   text-align: center;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 
 }
 
@@ -337,4 +342,223 @@ img{
   margin-left: 10px;
   color: #00FF88;
   margin-bottom: 20px;
+}
+
+
+/* host */
+
+#host{
+  background-color: #1A0B2E;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 100px;
+}
+.host-title .meet-the-host{
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+.host-container{
+  display: flex;
+  gap: 24px;
+  background-color:#351165;
+
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding:40px ;
+
+}
+.host-content-title{
+  font-size: 1.7rem;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.host-details{
+  font-size: 0.8rem;
+  opacity: 60%;
+  color: #FFFFFF;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+.social-container{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.radius{
+  border-radius: 50%;
+  border: 2px solid #533C72;
+  opacity: 100%;
+  width: 50px;
+  height: 50px;
+  padding: 10px;          
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.radius img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+.first-part{
+  color: #FFFFFF;
+  font-size: 5rem;
+  font-weight: bold;
+
+}
+.last-part{
+  font-size: 5rem;
+  background-image: linear-gradient(90deg,#F7E93F 0%,#FB09B4 51%,#9100F8 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 700;
+
+}
+
+#footer{
+   background-image: url("./assets/footer-bg.png");
+  background-position: center;
+  background-size: cover;
+  padding:1px 120px;
+}
+.footer-title{
+  text-align: center;
+  margin-top:120px;
+  
+
+}
+.footer-social-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:40px;
+   color: #FFFFFF;
+  opacity: 60%;
+  font-size: 0.8rem;
+  margin-bottom: 25px;
+  
+  
+  
+}
+.footer-last{
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 60%;
+  font-size:0.8rem ;
+  margin-bottom: 120px;
+}
+img, iframe {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 576px) {
+
+  #feature{
+    padding: 60px 20px;
+  }
+
+  .feature-title{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  
+  .feature-container{
+    display: grid !important;             
+    grid-template-columns: 1fr !important; 
+    gap: 20px;                             
+  }
+
+  .feature-card{
+    width: 100% !important;               
+    max-width: 100% !important;
+    display: block !important;
+    background-color: #250D44;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .feature-card iframe{
+    width: 100%;
+    height: 170px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+
+  .feature-title-2{
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .feature-info{
+    font-size: 0.7rem;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+  }
+
+  .video-time{
+    margin-left: 10px;
+    color: #00FF88;
+    margin-bottom: 10px;
+  }
+   #footer{
+    padding: 1px 20px; 
+  }
+
+  .first-part,
+  .last-part{
+    font-size: 3rem;  
+  }
+
+  .footer-social-container{
+    flex-direction: column; 
+    gap: 15px;
+  }
+}
+
+
+
+
+@media (max-width: 992px) {
+
+  .navbar{
+    padding: 20px 60px;
+  }
+
+  .about,
+  .table,
+  #feature,
+  #host{
+    padding: 80px 60px;
+  }
+
+  .about-container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+  .feature-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .table-card{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
 }
